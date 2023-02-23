@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+button {
+  margin: 0 auto;
+  display: block;
+}
+.sl-name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  /* background-color: gray; */
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.sec-border {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 255, 10, 1) 0%,
+    rgba(1, 40, 205, 1) 100%
+  );
+}
